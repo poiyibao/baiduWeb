@@ -1,0 +1,78 @@
+body{
+	height: 100hv;
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+	width: 800px;
+	margin: auto;
+}
+
+#title{
+	background-color: darkgray;
+	padding-left: 30px;
+	height: 60px;
+}
+h2{
+	display: inline;
+	margin-right: 20px;
+	width: 120px;
+
+}
+h1{
+	margin-top: 0.625rem;
+	margin-bottom: 0.625rem;
+	color: #FFFFFF;
+}
+strong{
+	font-family:"microsoft yahei";
+	font-size: large;
+}
+#listOne,#listTwo{
+	display: flex;
+	height: 80px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #C0C0C0;
+}
+.form{
+	background-color: white;
+	width:700px
+}
+hr{
+	margin: 0;
+}
+#container{
+	margin-top: 0;
+	padding-top: 0;
+	background-color: #C0C0C0;
+}
+#content{
+	margin-top: 0;
+	padding-left: 0;
+	}
+	li>h2
+	{
+	margin-left: 40px;
+	}
+.items{
+	margin-left: 10px;
+	align-items: flex-start;
+	display: inline-flex
+}
+.project{
+	display: flex;
+
+}
+.styel_3{
+	margin-left: 30px;
+	background-color: white;
+	width: 700px;
+	margin-left: 0;
+}
+h3{
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}

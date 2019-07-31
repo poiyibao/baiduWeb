@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+#head{
+	width: 100%;
+	background-color: gray;
+	height: 80px;
+}
+.navMask{
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;	
+}
+#title{ 
+	width: 960px;
+	margin: 0 auto;
+	min-width: 960px;
+	position: relative;
+}
+#logo{ 
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: xx-large;
+	margin-top: 50px; 
+	}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.nav-con{
+	position: absolute;
+	float:left ;
+	right:20px ;
+	display: inline;
+}
+#nav1{ 
+     list-style-type: none;
+}
+ul{
+	list-style-type: none;
+}
+.link{
+	display:inline ;
+}
+#banner{
+	width: 100%;
+}
+#transformation{ 
+	background-color: lightgreen;
+	width: 100%;
+	height: 235px;
+	position: relative;
+}
+.nav-order{ 
+	position: absolute;
+	bottom: 10px;
+	right: 100px;
+}
+.num{
+	display: inline;
+	}
+#container{
+	width: 100%;
+	height: 500px;
+
+}
+.nav_list{
+	margin-top: 10px;
+    width: 960px;
+	position: relative;
+    margin: 0 auto;
+	height: 51px;
+}
+#list{
+	 position: absolute;
+	 bottom: 0;
+	 left: 10px;
+
+}
+.items{
+	display: inline;
+	border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 13px 13px 0 0;
+	width: 150px;
+	background-color: #CCCCCC;
+}
+.items>a{
+	color: black;
+}
+
+#panels{
+	width: 100%;
+	height: 447px;
+	border-top:1px solid #ccc ;
+
+}
+.main{
+	width: 960px;
+	min-width: 960px;
+	height: 447px;
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+}
+.panel{
+	width: 960px;
+	min-width: 60rem;
+	height: 447px;
+	margin: 0 auto;
+	background-color: white;
+	position: absolute;
+    top: 0;
+	
+}
+.lines{
+	width: 960px;
+	height:149px;
+}
+.contents{
+	display:flex;
+	flex-direction: row;
+}
+.content{
+	width: 220px;
+	height:69px ;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	margin-left: 9px;
+	margin-right: 9px;
+	border: 1px solid lightgray;
+	text-align: center;
+	padding-top: 60px ;
+	
+}
+.three{
+	width: 300px;
+}
+.example1{
+	width: 960px;
+	height: 149px;
+	background-color: azure;
+}
+.example2{
+		width: 960px;
+		height: 149px;
+		background-color: beige;
+	}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #808080;
+	padding-top: 20px;
+}
+p{
+	text-align: center;
+	color: white;
+}
+.active_itmes{
+	background-color: white;
+}
+
+.actve_panel{
+	 z-index: 1;
+}

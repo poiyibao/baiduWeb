@@ -152,7 +152,9 @@
 	padding-top: 184px;
 }
 .explain{
-	width: 550px;	
+	width: 550px;
+	margin-left: 315px;
+
 }
 .explain>h1{
 	font-family:Montserrat-ExtraLight;
